@@ -94,5 +94,27 @@
   <ItemGroup>
     <None Include="Resources\image.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Main.png" />
+    <Content Include="Resources\Charge.png" />
+    <Content Include="Resources\Charge1.png" />
+    <Content Include="Resources\Main1.png" />
+    <Content Include="Resources\Reception.png" />
+    <Content Include="Resources\Line2.png" />
+    <Content Include="Resources\Line1.png" />
+    <Content Include="Resources\Line21.png" />
+    <Content Include="Resources\Reception1.png" />
+    <Content Include="Resources\Robot\FaultyRobot.png" />
+    <Content Include="Resources\Robot\NoRobot.png" />
+    <Content Include="Resources\Robot\Robot.png" />
+    <Content Include="Resources\Table\Table1_False.png" />
+    <Content Include="Resources\Table\Table1_True.png" />
+    <Content Include="Resources\Table\Table2_False.png" />
+    <Content Include="Resources\Table\Table2_True.png" />
+    <Content Include="Resources\Table\Table3_False.png" />
+    <Content Include="Resources\Table\Table3_True.png" />
+    <Content Include="Resources\Table\Table4_False.png" />
+    <Content Include="Resources\Table\Table4_True.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

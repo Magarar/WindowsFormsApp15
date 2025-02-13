@@ -98,10 +98,6 @@ namespace WindowsFormsApp1
             GetInfoAsync();
 
         }
-
-        private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
+        
     }
 }
