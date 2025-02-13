@@ -23,67 +23,49 @@
         #region Windows 窗体设计器生成的代码
 
         /// <summary>
-        /// 设计器支持所需的方法 - 不要修改
-        /// 使用代码编辑器修改此方法的内容。
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
-            "01",
-            "12：45",
-            "工(1 , 2)",
-            "送餐模式",
-            "循迹",
-            "NULL",
-            "时间12：45，01号机器人在工作区域的（1，2）位置，正常工作，处于送餐模式，正在进行循迹功能，无异常，无临时调度。"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
-            "01",
-            "12：40",
-            "服务台",
-            "送餐模式",
-            "接餐",
-            "NULL",
-            "时间12：40"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] { "01", "12：45", "工(1 , 2)", "送餐模式", "循迹", "NULL", "时间12：45，01号机器人在工作区域的（1，2）位置，正常工作，处于送餐模式，正在进行循迹功能，无异常，无临时调度。" }, -1);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] { "01", "12：40", "服务台", "送餐模式", "接餐", "NULL", "时间12：40" }, -1);
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Title_Index = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.Title_Time = new System.Windows.Forms.Label();
+            this.Title_Passager = new System.Windows.Forms.Label();
+            this.Title_State = new System.Windows.Forms.Label();
+            this.Title_Power = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.label7 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
+            this.Title_OnWorking = new System.Windows.Forms.Label();
+            this.Title_Model = new System.Windows.Forms.Label();
+            this.Title_dispatch = new System.Windows.Forms.Label();
+            this.Title_Local = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.splitContainer6 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.splitContainer5 = new System.Windows.Forms.SplitContainer();
             this.splitContainer7 = new System.Windows.Forms.SplitContainer();
-            this.label4 = new System.Windows.Forms.Label();
+            this.Title_Menu = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.label11 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.timer1 = new System.Timers.Timer();
+            this.panel4 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer6)).BeginInit();
             this.splitContainer6.Panel1.SuspendLayout();
@@ -104,48 +86,36 @@
             this.splitContainer4.Panel1.SuspendLayout();
             this.splitContainer4.Panel2.SuspendLayout();
             this.splitContainer4.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
-            this.splitContainer3.Panel1.SuspendLayout();
-            this.splitContainer3.Panel2.SuspendLayout();
-            this.splitContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.timer1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
             // 
             this.comboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "01",
-            "02",
-            "03",
-            "04"});
+            this.comboBox1.Items.AddRange(new object[] { "01", "02", "03", "04" });
             this.comboBox1.Location = new System.Drawing.Point(0, 0);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(188, 21);
+            this.comboBox1.Size = new System.Drawing.Size(237, 24);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.Text = "01";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label1
+            // Title_Index
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("宋体", 8F);
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 14);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "机器人编号：";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Title_Index.AutoSize = true;
+            this.Title_Index.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Title_Index.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_Index.Location = new System.Drawing.Point(0, 0);
+            this.Title_Index.Name = "Title_Index";
+            this.Title_Index.Size = new System.Drawing.Size(116, 18);
+            this.Title_Index.TabIndex = 1;
+            this.Title_Index.Text = "机器人编号：";
+            this.Title_Index.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -153,64 +123,56 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(359, 370);
+            this.pictureBox1.Size = new System.Drawing.Size(452, 461);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // label2
+            // Title_Time
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 14);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "时间：2024年10月12日 12时45分";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.Title_Time.AutoSize = true;
+            this.Title_Time.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_Time.Location = new System.Drawing.Point(3, 18);
+            this.Title_Time.Name = "Title_Time";
+            this.Title_Time.Size = new System.Drawing.Size(269, 18);
+            this.Title_Time.TabIndex = 3;
+            this.Title_Time.Text = "时间：2024年10月12日 12时45分";
+            this.Title_Time.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // Title_Passager
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(255, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 14);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "客流量：12人";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.Title_Passager.AutoSize = true;
+            this.Title_Passager.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_Passager.Location = new System.Drawing.Point(304, 20);
+            this.Title_Passager.Name = "Title_Passager";
+            this.Title_Passager.Size = new System.Drawing.Size(116, 18);
+            this.Title_Passager.TabIndex = 4;
+            this.Title_Passager.Text = "客流量：12人";
+            this.Title_Passager.Click += new System.EventHandler(this.label3_Click);
             // 
-            // pictureBox2
+            // Title_State
             // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.image;
-            this.pictureBox2.Location = new System.Drawing.Point(10, 5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(11);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(582, 496);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
+            this.Title_State.AutoSize = true;
+            this.Title_State.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Title_State.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_State.Location = new System.Drawing.Point(3, 255);
+            this.Title_State.Name = "Title_State";
+            this.Title_State.Size = new System.Drawing.Size(356, 29);
+            this.Title_State.TabIndex = 7;
+            this.Title_State.Text = "状态：正常工作";
+            this.Title_State.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label5
+            // Title_Power
             // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Location = new System.Drawing.Point(3, 164);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(283, 29);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "状态：正常工作";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Location = new System.Drawing.Point(0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 14);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "电量：78％";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.Title_Power.AutoSize = true;
+            this.Title_Power.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Title_Power.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_Power.Location = new System.Drawing.Point(0, 0);
+            this.Title_Power.Name = "Title_Power";
+            this.Title_Power.Size = new System.Drawing.Size(98, 18);
+            this.Title_Power.TabIndex = 8;
+            this.Title_Power.Text = "电量：78％";
+            this.Title_Power.Click += new System.EventHandler(this.label6_Click);
             // 
             // progressBar1
             // 
@@ -228,29 +190,21 @@
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Location = new System.Drawing.Point(0, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 14);
+            this.label7.Size = new System.Drawing.Size(88, 16);
             this.label7.TabIndex = 11;
             this.label7.Text = "运行日志：";
             // 
             // listView1
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7});
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] { this.columnHeader1, this.columnHeader2, this.columnHeader3, this.columnHeader4, this.columnHeader5, this.columnHeader6, this.columnHeader7 });
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listView1.HideSelection = false;
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2});
+            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] { listViewItem1, listViewItem2 });
             this.listView1.Location = new System.Drawing.Point(0, 0);
             this.listView1.Margin = new System.Windows.Forms.Padding(2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(650, 286);
+            this.listView1.Size = new System.Drawing.Size(816, 286);
             this.listView1.TabIndex = 12;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -296,54 +250,58 @@
             this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader7.Width = 160;
             // 
-            // label8
+            // Title_OnWorking
             // 
-            this.label8.AutoSize = true;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Location = new System.Drawing.Point(3, 225);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(283, 27);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "正在进行：送餐 循迹";
+            this.Title_OnWorking.AutoSize = true;
+            this.Title_OnWorking.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Title_OnWorking.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_OnWorking.Location = new System.Drawing.Point(3, 316);
+            this.Title_OnWorking.Name = "Title_OnWorking";
+            this.Title_OnWorking.Size = new System.Drawing.Size(356, 27);
+            this.Title_OnWorking.TabIndex = 13;
+            this.Title_OnWorking.Text = "正在进行：送餐 循迹";
             // 
-            // label9
+            // Title_Model
             // 
-            this.label9.AutoSize = true;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.Location = new System.Drawing.Point(3, 193);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(283, 32);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "模式：送餐模式";
+            this.Title_Model.AutoSize = true;
+            this.Title_Model.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Title_Model.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_Model.Location = new System.Drawing.Point(3, 284);
+            this.Title_Model.Name = "Title_Model";
+            this.Title_Model.Size = new System.Drawing.Size(356, 32);
+            this.Title_Model.TabIndex = 14;
+            this.Title_Model.Text = "模式：送餐模式";
             // 
-            // label10
+            // Title_dispatch
             // 
-            this.label10.AutoSize = true;
-            this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label10.Location = new System.Drawing.Point(3, 252);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(283, 118);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "调度：初始工作范围";
+            this.Title_dispatch.AutoSize = true;
+            this.Title_dispatch.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Title_dispatch.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_dispatch.Location = new System.Drawing.Point(3, 343);
+            this.Title_dispatch.Name = "Title_dispatch";
+            this.Title_dispatch.Size = new System.Drawing.Size(356, 118);
+            this.Title_dispatch.TabIndex = 15;
+            this.Title_dispatch.Text = "调度：初始工作范围";
             // 
-            // label13
+            // Title_Local
             // 
-            this.label13.AutoSize = true;
-            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label13.Location = new System.Drawing.Point(3, 134);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(283, 30);
-            this.label13.TabIndex = 18;
-            this.label13.Text = "位置代码：工（1，2）";
+            this.Title_Local.AutoSize = true;
+            this.Title_Local.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Title_Local.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Title_Local.Location = new System.Drawing.Point(3, 225);
+            this.Title_Local.Name = "Title_Local";
+            this.Title_Local.Size = new System.Drawing.Size(356, 30);
+            this.Title_Local.TabIndex = 18;
+            this.Title_Local.Text = "位置代码：工（1，2）";
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.splitContainer6);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(2, 55);
+            this.panel1.Location = new System.Drawing.Point(2, 64);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(650, 370);
+            this.panel1.Size = new System.Drawing.Size(816, 461);
             this.panel1.TabIndex = 19;
             // 
             // splitContainer6
@@ -360,8 +318,8 @@
             // splitContainer6.Panel2
             // 
             this.splitContainer6.Panel2.Controls.Add(this.pictureBox1);
-            this.splitContainer6.Size = new System.Drawing.Size(650, 370);
-            this.splitContainer6.SplitterDistance = 289;
+            this.splitContainer6.Size = new System.Drawing.Size(816, 461);
+            this.splitContainer6.SplitterDistance = 362;
             this.splitContainer6.SplitterWidth = 2;
             this.splitContainer6.TabIndex = 21;
             // 
@@ -370,38 +328,38 @@
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.splitContainer5, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label13, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.label10, 0, 7);
+            this.tableLayoutPanel2.Controls.Add(this.Title_Local, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.Title_dispatch, 0, 7);
             this.tableLayoutPanel2.Controls.Add(this.splitContainer7, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label8, 0, 6);
-            this.tableLayoutPanel2.Controls.Add(this.label9, 0, 5);
-            this.tableLayoutPanel2.Controls.Add(this.label5, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label4, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.Title_OnWorking, 0, 6);
+            this.tableLayoutPanel2.Controls.Add(this.Title_Model, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.Title_State, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.Title_Menu, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 8;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 63F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 37F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.70157F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 73.29843F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 117F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(289, 370);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(362, 461);
             this.tableLayoutPanel2.TabIndex = 20;
             // 
             // splitContainer5
             // 
-            this.splitContainer5.Location = new System.Drawing.Point(2, 102);
+            this.splitContainer5.Location = new System.Drawing.Point(2, 201);
             this.splitContainer5.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer5.Name = "splitContainer5";
             // 
             // splitContainer5.Panel1
             // 
-            this.splitContainer5.Panel1.Controls.Add(this.label6);
+            this.splitContainer5.Panel1.Controls.Add(this.Title_Power);
             // 
             // splitContainer5.Panel2
             // 
@@ -414,53 +372,53 @@
             // splitContainer7
             // 
             this.splitContainer7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer7.Location = new System.Drawing.Point(2, 65);
+            this.splitContainer7.Location = new System.Drawing.Point(2, 55);
             this.splitContainer7.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer7.Name = "splitContainer7";
             // 
             // splitContainer7.Panel1
             // 
-            this.splitContainer7.Panel1.Controls.Add(this.label1);
+            this.splitContainer7.Panel1.Controls.Add(this.Title_Index);
             // 
             // splitContainer7.Panel2
             // 
             this.splitContainer7.Panel2.Controls.Add(this.comboBox1);
-            this.splitContainer7.Size = new System.Drawing.Size(285, 33);
-            this.splitContainer7.SplitterDistance = 95;
+            this.splitContainer7.Size = new System.Drawing.Size(358, 142);
+            this.splitContainer7.SplitterDistance = 119;
             this.splitContainer7.SplitterWidth = 2;
             this.splitContainer7.TabIndex = 23;
             // 
-            // label4
+            // Title_Menu
             // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("宋体", 18F);
-            this.label4.Location = new System.Drawing.Point(3, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(283, 30);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "机器人监控窗口";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.Title_Menu.AutoSize = true;
+            this.Title_Menu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Title_Menu.Font = new System.Drawing.Font("宋体", 18F);
+            this.Title_Menu.Location = new System.Drawing.Point(3, 0);
+            this.Title_Menu.Name = "Title_Menu";
+            this.Title_Menu.Size = new System.Drawing.Size(356, 36);
+            this.Title_Menu.TabIndex = 19;
+            this.Title_Menu.Text = "机器人监控窗口";
+            this.Title_Menu.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.Title_Passager);
+            this.panel2.Controls.Add(this.Title_Time);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(2, 2);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(650, 49);
+            this.panel2.Size = new System.Drawing.Size(816, 58);
             this.panel2.TabIndex = 20;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.splitContainer4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(2, 429);
+            this.panel3.Location = new System.Drawing.Point(2, 529);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(650, 313);
+            this.panel3.Size = new System.Drawing.Size(816, 313);
             this.panel3.TabIndex = 21;
             // 
             // splitContainer4
@@ -478,73 +436,10 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.listView1);
-            this.splitContainer4.Size = new System.Drawing.Size(650, 313);
+            this.splitContainer4.Size = new System.Drawing.Size(816, 313);
             this.splitContainer4.SplitterDistance = 25;
             this.splitContainer4.SplitterWidth = 2;
             this.splitContainer4.TabIndex = 13;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.splitContainer3);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(602, 744);
-            this.panel4.TabIndex = 22;
-            // 
-            // splitContainer3
-            // 
-            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer3.Margin = new System.Windows.Forms.Padding(2);
-            this.splitContainer3.Name = "splitContainer3";
-            this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer3.Panel1
-            // 
-            this.splitContainer3.Panel1.Controls.Add(this.splitContainer2);
-            // 
-            // splitContainer3.Panel2
-            // 
-            this.splitContainer3.Panel2.Controls.Add(this.pictureBox2);
-            this.splitContainer3.Panel2.Padding = new System.Windows.Forms.Padding(10, 5, 10, 150);
-            this.splitContainer3.Size = new System.Drawing.Size(602, 744);
-            this.splitContainer3.SplitterDistance = 91;
-            this.splitContainer3.SplitterWidth = 2;
-            this.splitContainer3.TabIndex = 19;
-            // 
-            // splitContainer2
-            // 
-            this.splitContainer2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.splitContainer2.Location = new System.Drawing.Point(3, -4);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(2);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel1_Paint);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.splitContainer2.Panel2.Controls.Add(this.label11);
-            this.splitContainer2.Size = new System.Drawing.Size(609, 95);
-            this.splitContainer2.SplitterDistance = 54;
-            this.splitContainer2.SplitterWidth = 2;
-            this.splitContainer2.TabIndex = 0;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label11.Font = new System.Drawing.Font("宋体", 18F);
-            this.label11.Location = new System.Drawing.Point(0, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(223, 30);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "机器人调度窗口";
             // 
             // tableLayoutPanel1
             // 
@@ -559,9 +454,9 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 374F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 465F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 317F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(654, 744);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(820, 844);
             this.tableLayoutPanel1.TabIndex = 23;
             // 
             // splitContainer1
@@ -574,26 +469,39 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.tableLayoutPanel1);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.panel4);
-            this.splitContainer1.Size = new System.Drawing.Size(1258, 744);
-            this.splitContainer1.SplitterDistance = 654;
+            this.splitContainer1.Size = new System.Drawing.Size(1578, 844);
+            this.splitContainer1.SplitterDistance = 820;
             this.splitContainer1.SplitterWidth = 2;
             this.splitContainer1.TabIndex = 24;
+            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000D;
+            this.timer1.SynchronizingObject = this;
+            this.timer1.Elapsed += new System.Timers.ElapsedEventHandler(this.timer1_Elapsed);
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(756, 844);
+            this.panel4.TabIndex = 22;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1258, 744);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1578, 844);
             this.Controls.Add(this.splitContainer1);
             this.Font = new System.Drawing.Font("宋体", 8F);
             this.Name = "Form1";
             this.Text = "机器人监控上位机";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.splitContainer6.Panel1.ResumeLayout(false);
             this.splitContainer6.Panel2.ResumeLayout(false);
@@ -619,34 +527,29 @@
             this.splitContainer4.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
             this.splitContainer4.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.splitContainer3.Panel1.ResumeLayout(false);
-            this.splitContainer3.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
-            this.splitContainer3.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            this.splitContainer2.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.timer1)).EndInit();
             this.ResumeLayout(false);
-
         }
+
+        private System.Windows.Forms.Panel panel4;
+
+        private System.Timers.Timer timer1;
+
+        private System.Windows.Forms.Label Title_Power;
 
         #endregion
 
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Title_Index;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label Title_Time;
+        private System.Windows.Forms.Label Title_Passager;
+        private System.Windows.Forms.Label Title_State;
+        private System.Windows.Forms.Label Title_Local;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ListView listView1;
@@ -657,25 +560,21 @@
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label Title_OnWorking;
+        private System.Windows.Forms.Label Title_Model;
+        private System.Windows.Forms.Label Title_dispatch;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.SplitContainer splitContainer3;
         private System.Windows.Forms.SplitContainer splitContainer4;
-        private System.Windows.Forms.SplitContainer splitContainer2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label Title_Menu;
         private System.Windows.Forms.SplitContainer splitContainer6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.SplitContainer splitContainer5;
         private System.Windows.Forms.SplitContainer splitContainer7;
-        private System.Windows.Forms.Label label11;
     }
 }
 

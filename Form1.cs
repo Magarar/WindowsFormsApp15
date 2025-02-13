@@ -6,15 +6,40 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 using System.Windows.Forms;
+using WindowsFormsApp1.Script;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        public static Form1 instance;
+        
+        HttpService httpService = new HttpService();
         public Form1()
         {
+            if (instance == null)
+            {
+                instance = this;
+            }
             InitializeComponent();
+            GetInfoAsync();
+        }
+        
+        private async Task GetInfoAsync()
+        {
+            var httpService = new HttpService();
+
+            try
+            {
+                string result = await httpService.GetCountAsync("https://order-learn-8gtowqh7fdb505b4-1332464681.ap-shanghai.app.tcloudbase.com/GetOrderCount");
+                Title_Passager.Text = "当前乘客数：" + result;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -65,6 +90,18 @@ namespace WindowsFormsApp1
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+        
+        private void timer1_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            Title_Time.Text = "当前时间："+DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            GetInfoAsync();
+
+        }
+
+        private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
