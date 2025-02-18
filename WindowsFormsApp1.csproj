@@ -64,6 +64,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Script\HttpService.cs" />
+    <Compile Include="Script\Order.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,13 +98,9 @@
   <ItemGroup>
     <Content Include="Resources\Main.png" />
     <Content Include="Resources\Charge.png" />
-    <Content Include="Resources\Charge1.png" />
-    <Content Include="Resources\Main1.png" />
     <Content Include="Resources\Reception.png" />
     <Content Include="Resources\Line2.png" />
     <Content Include="Resources\Line1.png" />
-    <Content Include="Resources\Line21.png" />
-    <Content Include="Resources\Reception1.png" />
     <Content Include="Resources\Robot\FaultyRobot.png" />
     <Content Include="Resources\Robot\NoRobot.png" />
     <Content Include="Resources\Robot\Robot.png" />

@@ -89,9 +89,9 @@
             this.panel29 = new System.Windows.Forms.Panel();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel28 = new System.Windows.Forms.Panel();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.Pic_Table3 = new System.Windows.Forms.PictureBox();
             this.panel27 = new System.Windows.Forms.Panel();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.Pic_Table2 = new System.Windows.Forms.PictureBox();
             this.panel35 = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
@@ -110,9 +110,9 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.Pic_Table1 = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.Pic_Table0 = new System.Windows.Forms.PictureBox();
             this.panel24 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -181,9 +181,9 @@
             this.panel29.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel28.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Table3)).BeginInit();
             this.panel27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Table2)).BeginInit();
             this.panel26.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.panel25.SuspendLayout();
@@ -201,9 +201,9 @@
             this.panel19.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Table1)).BeginInit();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Table0)).BeginInit();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel10.SuspendLayout();
@@ -864,40 +864,40 @@
             // 
             // panel28
             // 
-            this.panel28.Controls.Add(this.pictureBox20);
+            this.panel28.Controls.Add(this.Pic_Table3);
             this.panel28.Location = new System.Drawing.Point(393, 283);
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(128, 128);
             this.panel28.TabIndex = 16;
             // 
-            // pictureBox20
+            // Pic_Table3
             // 
-            this.pictureBox20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox20.Image = global::WindowsFormsApp1.Properties.Resources.Table4_True;
-            this.pictureBox20.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox20.TabIndex = 0;
-            this.pictureBox20.TabStop = false;
+            this.Pic_Table3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Table3.Image = global::WindowsFormsApp1.Properties.Resources.Table4_True;
+            this.Pic_Table3.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Table3.Name = "Pic_Table3";
+            this.Pic_Table3.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Table3.TabIndex = 0;
+            this.Pic_Table3.TabStop = false;
             // 
             // panel27
             // 
-            this.panel27.Controls.Add(this.pictureBox19);
+            this.panel27.Controls.Add(this.Pic_Table2);
             this.panel27.Controls.Add(this.panel35);
             this.panel27.Location = new System.Drawing.Point(393, 90);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(128, 128);
             this.panel27.TabIndex = 15;
             // 
-            // pictureBox19
+            // Pic_Table2
             // 
-            this.pictureBox19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox19.Image = global::WindowsFormsApp1.Properties.Resources.Table3_True;
-            this.pictureBox19.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox19.TabIndex = 1;
-            this.pictureBox19.TabStop = false;
+            this.Pic_Table2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Table2.Image = global::WindowsFormsApp1.Properties.Resources.Table3_True;
+            this.Pic_Table2.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Table2.Name = "Pic_Table2";
+            this.Pic_Table2.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Table2.TabIndex = 1;
+            this.Pic_Table2.TabStop = false;
             // 
             // panel35
             // 
@@ -1057,40 +1057,40 @@
             // 
             // panel16
             // 
-            this.panel16.Controls.Add(this.pictureBox18);
+            this.panel16.Controls.Add(this.Pic_Table1);
             this.panel16.Location = new System.Drawing.Point(131, 282);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(128, 128);
             this.panel16.TabIndex = 6;
             // 
-            // pictureBox18
+            // Pic_Table1
             // 
-            this.pictureBox18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox18.Image = global::WindowsFormsApp1.Properties.Resources.Table2_True;
-            this.pictureBox18.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox18.TabIndex = 0;
-            this.pictureBox18.TabStop = false;
+            this.Pic_Table1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Table1.Image = global::WindowsFormsApp1.Properties.Resources.Table2_True;
+            this.Pic_Table1.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Table1.Name = "Pic_Table1";
+            this.Pic_Table1.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Table1.TabIndex = 0;
+            this.Pic_Table1.TabStop = false;
             // 
             // panel12
             // 
-            this.panel12.Controls.Add(this.pictureBox17);
+            this.panel12.Controls.Add(this.Pic_Table0);
             this.panel12.Controls.Add(this.panel24);
             this.panel12.Location = new System.Drawing.Point(130, 90);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(128, 128);
             this.panel12.TabIndex = 5;
             // 
-            // pictureBox17
+            // Pic_Table0
             // 
-            this.pictureBox17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox17.Image = global::WindowsFormsApp1.Properties.Resources.Table1_True;
-            this.pictureBox17.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox17.TabIndex = 1;
-            this.pictureBox17.TabStop = false;
+            this.Pic_Table0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Table0.Image = global::WindowsFormsApp1.Properties.Resources.Table1_True;
+            this.Pic_Table0.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Table0.Name = "Pic_Table0";
+            this.Pic_Table0.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Table0.TabIndex = 1;
+            this.Pic_Table0.TabStop = false;
             // 
             // panel24
             // 
@@ -1308,9 +1308,9 @@
             this.panel29.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel28.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Table3)).EndInit();
             this.panel27.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Table2)).EndInit();
             this.panel26.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel25.ResumeLayout(false);
@@ -1328,9 +1328,9 @@
             this.panel19.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel16.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Table1)).EndInit();
             this.panel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Table0)).EndInit();
             this.panel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel10.ResumeLayout(false);
@@ -1368,17 +1368,17 @@
 
         private System.Windows.Forms.PictureBox pictureBox21;
 
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox Pic_Table3;
 
         private System.Windows.Forms.Panel panel34;
         private System.Windows.Forms.Panel panel35;
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Panel panel37;
-        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox Pic_Table2;
 
-        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox Pic_Table1;
 
-        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox Pic_Table0;
 
         private System.Windows.Forms.PictureBox pictureBox16;
 
