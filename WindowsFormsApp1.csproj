@@ -96,6 +96,29 @@
     <None Include="Resources\image.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Avoid_Default.png" />
+    <Content Include="Resources\Avoid_Work.png" />
+    <Content Include="Resources\Backout1_Default.png" />
+    <Content Include="Resources\Backout1_Work.png" />
+    <Content Include="Resources\Backout2_Default.png" />
+    <Content Include="Resources\Backout2_Work.png" />
+    <Content Include="Resources\Backout3_Default.png" />
+    <Content Include="Resources\Backout3_Work.png" />
+    <Content Include="Resources\Bottom_Default.png" />
+    <Content Include="Resources\Bottom_Work.png" />
+    <Content Include="Resources\Charge_Default.png" />
+    <Content Include="Resources\Charge_Work.png" />
+    <Content Include="Resources\Dining1_Default.png" />
+    <Content Include="Resources\Dining1_Work.png" />
+    <Content Include="Resources\Dining2_Default.png" />
+    <Content Include="Resources\Dining2_Work.png" />
+    <Content Include="Resources\Dining3_Default.png" />
+    <Content Include="Resources\Dining3_Work.png" />
+    <Content Include="Resources\Drive_Default.png" />
+    <Content Include="Resources\Drive_Work.png" />
+    <Content Include="Resources\Identity_Default.png" />
+    <Content Include="Resources\Identity_Work.png" />
+    <Content Include="Resources\Info.png" />
     <Content Include="Resources\Main.png" />
     <Content Include="Resources\Charge.png" />
     <Content Include="Resources\Reception.png" />
@@ -112,6 +135,10 @@
     <Content Include="Resources\Table\Table3_True.png" />
     <Content Include="Resources\Table\Table4_False.png" />
     <Content Include="Resources\Table\Table4_True.png" />
+    <Content Include="Resources\Touch_Default.png" />
+    <Content Include="Resources\Touch_Work.png" />
+    <Content Include="Resources\Tracking_Default.png" />
+    <Content Include="Resources\Tracking_Work.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

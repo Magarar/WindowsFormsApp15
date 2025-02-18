@@ -110,4 +110,85 @@
   <data name="Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Avoid_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avoid_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avoid_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avoid_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backout1_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backout1_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backout1_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backout1_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backout2_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backout2_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backout2_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backout2_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backout3_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backout3_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backout3_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backout3_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bottom_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bottom_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bottom_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bottom_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dining1_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dining1_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dining1_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dining1_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dining2_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dining2_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dining2_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dining2_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dining3_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dining3_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dining3_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dining3_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Drive_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Drive_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Identity_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Identity_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Identity_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Identity_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Touch_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Touch_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Touch_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Touch_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tracking_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tracking_Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tracking_Work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tracking_Work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

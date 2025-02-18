@@ -9,14 +9,9 @@ namespace WindowsFormsApp1.Script
 {
     public class HttpService
     {
-        private readonly HttpClient _httpClient;
+        private readonly HttpClient _httpClient = new HttpClient();
 
-        public HttpService()
-        {
-            _httpClient = new HttpClient();
-        }
-
-        public async Task<string> SendGetRequestAsync(string url)
+        private async Task<string> SendGetRequestAsync(string url)
         {
             try
             {

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] { "01", "12：45", "工(1 , 2)", "送餐模式", "循迹", "NULL", "时间12：45，01号机器人在工作区域的（1，2）位置，正常工作，处于送餐模式，正在进行循迹功能，无异常，无临时调度。" }, -1);
             System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] { "01", "12：40", "服务台", "送餐模式", "接餐", "NULL", "时间12：40" }, -1);
             this.timer1 = new System.Timers.Timer();
@@ -52,7 +51,28 @@
             this.Title_Model = new System.Windows.Forms.Label();
             this.Title_State = new System.Windows.Forms.Label();
             this.Title_Menu = new System.Windows.Forms.Label();
+            this.panel47 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel46 = new System.Windows.Forms.Panel();
+            this.Pic_Tracking = new System.Windows.Forms.PictureBox();
+            this.panel45 = new System.Windows.Forms.Panel();
+            this.Pic_Avoid = new System.Windows.Forms.PictureBox();
+            this.panel44 = new System.Windows.Forms.Panel();
+            this.Pic_Backout2 = new System.Windows.Forms.PictureBox();
+            this.panel43 = new System.Windows.Forms.Panel();
+            this.Pic_Backout1 = new System.Windows.Forms.PictureBox();
+            this.panel42 = new System.Windows.Forms.Panel();
+            this.Pic_Backout0 = new System.Windows.Forms.PictureBox();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.Pic_Charge = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.Pic_Identity = new System.Windows.Forms.PictureBox();
+            this.Pic_Touch = new System.Windows.Forms.PictureBox();
+            this.Pic_Dining2 = new System.Windows.Forms.PictureBox();
+            this.Pic_Dining1 = new System.Windows.Forms.PictureBox();
+            this.Pic_Dining0 = new System.Windows.Forms.PictureBox();
+            this.Pic_Bottom = new System.Windows.Forms.PictureBox();
+            this.Pic_Drive = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
             this.label7 = new System.Windows.Forms.Label();
@@ -83,11 +103,11 @@
             this.panel32 = new System.Windows.Forms.Panel();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.panel31 = new System.Windows.Forms.Panel();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot6 = new System.Windows.Forms.PictureBox();
             this.panel30 = new System.Windows.Forms.Panel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot7 = new System.Windows.Forms.PictureBox();
             this.panel29 = new System.Windows.Forms.Panel();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot8 = new System.Windows.Forms.PictureBox();
             this.panel28 = new System.Windows.Forms.Panel();
             this.Pic_Table3 = new System.Windows.Forms.PictureBox();
             this.panel27 = new System.Windows.Forms.Panel();
@@ -104,11 +124,11 @@
             this.panel18 = new System.Windows.Forms.Panel();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot3 = new System.Windows.Forms.PictureBox();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot4 = new System.Windows.Forms.PictureBox();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot5 = new System.Windows.Forms.PictureBox();
             this.panel16 = new System.Windows.Forms.Panel();
             this.Pic_Table1 = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -122,11 +142,11 @@
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot1 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot2 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Pic_Robot0 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -147,7 +167,28 @@
             this.splitContainer7.Panel1.SuspendLayout();
             this.splitContainer7.Panel2.SuspendLayout();
             this.splitContainer7.SuspendLayout();
+            this.panel47.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel46.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Tracking)).BeginInit();
+            this.panel45.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Avoid)).BeginInit();
+            this.panel44.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Backout2)).BeginInit();
+            this.panel43.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Backout1)).BeginInit();
+            this.panel42.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Backout0)).BeginInit();
+            this.panel41.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Charge)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Identity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Touch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Dining2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Dining1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Dining0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Bottom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Drive)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
             this.splitContainer4.Panel1.SuspendLayout();
@@ -175,11 +216,11 @@
             this.panel32.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.panel31.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot6)).BeginInit();
             this.panel30.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot7)).BeginInit();
             this.panel29.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot8)).BeginInit();
             this.panel28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Table3)).BeginInit();
             this.panel27.SuspendLayout();
@@ -195,11 +236,11 @@
             this.panel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.panel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot3)).BeginInit();
             this.panel20.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot4)).BeginInit();
             this.panel19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot5)).BeginInit();
             this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Table1)).BeginInit();
             this.panel12.SuspendLayout();
@@ -210,11 +251,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot1)).BeginInit();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot2)).BeginInit();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot0)).BeginInit();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -272,7 +313,6 @@
             this.Title_Passager.Size = new System.Drawing.Size(116, 18);
             this.Title_Passager.TabIndex = 4;
             this.Title_Passager.Text = "客流量：12人";
-            this.Title_Passager.Click += new System.EventHandler(this.label3_Click);
             // 
             // Title_Time
             // 
@@ -283,7 +323,6 @@
             this.Title_Time.Size = new System.Drawing.Size(269, 18);
             this.Title_Time.TabIndex = 3;
             this.Title_Time.Text = "时间：2024年10月12日 12时45分";
-            this.Title_Time.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
             // 
@@ -308,7 +347,14 @@
             // 
             // splitContainer6.Panel2
             // 
-            this.splitContainer6.Panel2.Controls.Add(this.pictureBox1);
+            this.splitContainer6.Panel2.Controls.Add(this.panel47);
+            this.splitContainer6.Panel2.Controls.Add(this.panel46);
+            this.splitContainer6.Panel2.Controls.Add(this.panel45);
+            this.splitContainer6.Panel2.Controls.Add(this.panel44);
+            this.splitContainer6.Panel2.Controls.Add(this.panel43);
+            this.splitContainer6.Panel2.Controls.Add(this.panel42);
+            this.splitContainer6.Panel2.Controls.Add(this.panel41);
+            this.splitContainer6.Panel2.Controls.Add(this.tableLayoutPanel3);
             this.splitContainer6.Size = new System.Drawing.Size(816, 461);
             this.splitContainer6.SplitterDistance = 362;
             this.splitContainer6.SplitterWidth = 2;
@@ -370,7 +416,6 @@
             this.Title_Power.Size = new System.Drawing.Size(98, 18);
             this.Title_Power.TabIndex = 8;
             this.Title_Power.Text = "电量：78％";
-            this.Title_Power.Click += new System.EventHandler(this.label6_Click);
             // 
             // progressBar1
             // 
@@ -433,7 +478,6 @@
             this.Title_Index.Size = new System.Drawing.Size(116, 18);
             this.Title_Index.TabIndex = 1;
             this.Title_Index.Text = "机器人编号：";
-            this.Title_Index.Click += new System.EventHandler(this.label1_Click);
             // 
             // comboBox1
             // 
@@ -445,7 +489,6 @@
             this.comboBox1.Size = new System.Drawing.Size(237, 24);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.Text = "01";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Title_OnWorking
             // 
@@ -479,7 +522,6 @@
             this.Title_State.Size = new System.Drawing.Size(356, 29);
             this.Title_State.TabIndex = 7;
             this.Title_State.Text = "状态：正常工作";
-            this.Title_State.Click += new System.EventHandler(this.label5_Click);
             // 
             // Title_Menu
             // 
@@ -491,18 +533,240 @@
             this.Title_Menu.Size = new System.Drawing.Size(356, 36);
             this.Title_Menu.TabIndex = 19;
             this.Title_Menu.Text = "机器人监控窗口";
-            this.Title_Menu.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // panel47
+            // 
+            this.panel47.Controls.Add(this.pictureBox1);
+            this.panel47.Location = new System.Drawing.Point(330, 198);
+            this.panel47.Name = "panel47";
+            this.panel47.Size = new System.Drawing.Size(118, 131);
+            this.panel47.TabIndex = 7;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.Info;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(452, 461);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.Size = new System.Drawing.Size(118, 131);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // panel46
+            // 
+            this.panel46.Controls.Add(this.Pic_Tracking);
+            this.panel46.Location = new System.Drawing.Point(331, 329);
+            this.panel46.Name = "panel46";
+            this.panel46.Size = new System.Drawing.Size(118, 59);
+            this.panel46.TabIndex = 6;
+            // 
+            // Pic_Tracking
+            // 
+            this.Pic_Tracking.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Tracking.Image = global::WindowsFormsApp1.Properties.Resources.Tracking_Work;
+            this.Pic_Tracking.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Tracking.Name = "Pic_Tracking";
+            this.Pic_Tracking.Size = new System.Drawing.Size(118, 59);
+            this.Pic_Tracking.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Tracking.TabIndex = 0;
+            this.Pic_Tracking.TabStop = false;
+            // 
+            // panel45
+            // 
+            this.panel45.Controls.Add(this.Pic_Avoid);
+            this.panel45.Location = new System.Drawing.Point(331, 394);
+            this.panel45.Name = "panel45";
+            this.panel45.Size = new System.Drawing.Size(123, 67);
+            this.panel45.TabIndex = 5;
+            // 
+            // Pic_Avoid
+            // 
+            this.Pic_Avoid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Avoid.Image = global::WindowsFormsApp1.Properties.Resources.Avoid_Default;
+            this.Pic_Avoid.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Avoid.Name = "Pic_Avoid";
+            this.Pic_Avoid.Size = new System.Drawing.Size(123, 67);
+            this.Pic_Avoid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Avoid.TabIndex = 0;
+            this.Pic_Avoid.TabStop = false;
+            // 
+            // panel44
+            // 
+            this.panel44.Controls.Add(this.Pic_Backout2);
+            this.panel44.Location = new System.Drawing.Point(1, 134);
+            this.panel44.Name = "panel44";
+            this.panel44.Size = new System.Drawing.Size(124, 63);
+            this.panel44.TabIndex = 4;
+            // 
+            // Pic_Backout2
+            // 
+            this.Pic_Backout2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Backout2.Image = global::WindowsFormsApp1.Properties.Resources.Dining3_Default;
+            this.Pic_Backout2.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Backout2.Name = "Pic_Backout2";
+            this.Pic_Backout2.Size = new System.Drawing.Size(124, 63);
+            this.Pic_Backout2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pic_Backout2.TabIndex = 0;
+            this.Pic_Backout2.TabStop = false;
+            // 
+            // panel43
+            // 
+            this.panel43.Controls.Add(this.Pic_Backout1);
+            this.panel43.Location = new System.Drawing.Point(1, 199);
+            this.panel43.Name = "panel43";
+            this.panel43.Size = new System.Drawing.Size(124, 68);
+            this.panel43.TabIndex = 3;
+            // 
+            // Pic_Backout1
+            // 
+            this.Pic_Backout1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Backout1.Image = global::WindowsFormsApp1.Properties.Resources.Backout2_Default;
+            this.Pic_Backout1.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Backout1.Name = "Pic_Backout1";
+            this.Pic_Backout1.Size = new System.Drawing.Size(124, 68);
+            this.Pic_Backout1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pic_Backout1.TabIndex = 0;
+            this.Pic_Backout1.TabStop = false;
+            // 
+            // panel42
+            // 
+            this.panel42.Controls.Add(this.Pic_Backout0);
+            this.panel42.Location = new System.Drawing.Point(1, 264);
+            this.panel42.Name = "panel42";
+            this.panel42.Size = new System.Drawing.Size(124, 66);
+            this.panel42.TabIndex = 2;
+            // 
+            // Pic_Backout0
+            // 
+            this.Pic_Backout0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Backout0.Image = global::WindowsFormsApp1.Properties.Resources.Backout1_Default;
+            this.Pic_Backout0.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Backout0.Name = "Pic_Backout0";
+            this.Pic_Backout0.Size = new System.Drawing.Size(124, 66);
+            this.Pic_Backout0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pic_Backout0.TabIndex = 0;
+            this.Pic_Backout0.TabStop = false;
+            // 
+            // panel41
+            // 
+            this.panel41.Controls.Add(this.Pic_Charge);
+            this.panel41.Location = new System.Drawing.Point(2, 329);
+            this.panel41.Name = "panel41";
+            this.panel41.Size = new System.Drawing.Size(123, 127);
+            this.panel41.TabIndex = 1;
+            // 
+            // Pic_Charge
+            // 
+            this.Pic_Charge.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Charge.Image = global::WindowsFormsApp1.Properties.Resources.Charge;
+            this.Pic_Charge.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Charge.Name = "Pic_Charge";
+            this.Pic_Charge.Size = new System.Drawing.Size(123, 127);
+            this.Pic_Charge.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pic_Charge.TabIndex = 0;
+            this.Pic_Charge.TabStop = false;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.Pic_Identity, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Pic_Touch, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.Pic_Dining2, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.Pic_Dining1, 0, 3);
+            this.tableLayoutPanel3.Controls.Add(this.Pic_Dining0, 0, 4);
+            this.tableLayoutPanel3.Controls.Add(this.Pic_Bottom, 0, 5);
+            this.tableLayoutPanel3.Controls.Add(this.Pic_Drive, 0, 6);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(125, 1);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 7;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(203, 459);
+            this.tableLayoutPanel3.TabIndex = 0;
+            // 
+            // Pic_Identity
+            // 
+            this.Pic_Identity.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Identity.Image = global::WindowsFormsApp1.Properties.Resources.Identity_Default;
+            this.Pic_Identity.Location = new System.Drawing.Point(3, 3);
+            this.Pic_Identity.Name = "Pic_Identity";
+            this.Pic_Identity.Size = new System.Drawing.Size(197, 59);
+            this.Pic_Identity.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Identity.TabIndex = 0;
+            this.Pic_Identity.TabStop = false;
+            // 
+            // Pic_Touch
+            // 
+            this.Pic_Touch.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Touch.Image = global::WindowsFormsApp1.Properties.Resources.Touch_Default;
+            this.Pic_Touch.Location = new System.Drawing.Point(3, 68);
+            this.Pic_Touch.Name = "Pic_Touch";
+            this.Pic_Touch.Size = new System.Drawing.Size(197, 59);
+            this.Pic_Touch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Touch.TabIndex = 1;
+            this.Pic_Touch.TabStop = false;
+            // 
+            // Pic_Dining2
+            // 
+            this.Pic_Dining2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Dining2.Image = global::WindowsFormsApp1.Properties.Resources.Dining3_Default;
+            this.Pic_Dining2.Location = new System.Drawing.Point(3, 133);
+            this.Pic_Dining2.Name = "Pic_Dining2";
+            this.Pic_Dining2.Size = new System.Drawing.Size(197, 59);
+            this.Pic_Dining2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Dining2.TabIndex = 2;
+            this.Pic_Dining2.TabStop = false;
+            // 
+            // Pic_Dining1
+            // 
+            this.Pic_Dining1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Dining1.Image = global::WindowsFormsApp1.Properties.Resources.Dining2_Default;
+            this.Pic_Dining1.Location = new System.Drawing.Point(3, 198);
+            this.Pic_Dining1.Name = "Pic_Dining1";
+            this.Pic_Dining1.Size = new System.Drawing.Size(197, 59);
+            this.Pic_Dining1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Dining1.TabIndex = 3;
+            this.Pic_Dining1.TabStop = false;
+            // 
+            // Pic_Dining0
+            // 
+            this.Pic_Dining0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Dining0.Image = global::WindowsFormsApp1.Properties.Resources.Dining1_Default;
+            this.Pic_Dining0.Location = new System.Drawing.Point(3, 263);
+            this.Pic_Dining0.Name = "Pic_Dining0";
+            this.Pic_Dining0.Size = new System.Drawing.Size(197, 59);
+            this.Pic_Dining0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Dining0.TabIndex = 4;
+            this.Pic_Dining0.TabStop = false;
+            // 
+            // Pic_Bottom
+            // 
+            this.Pic_Bottom.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Bottom.Image = global::WindowsFormsApp1.Properties.Resources.Bottom_Work;
+            this.Pic_Bottom.Location = new System.Drawing.Point(3, 328);
+            this.Pic_Bottom.Name = "Pic_Bottom";
+            this.Pic_Bottom.Size = new System.Drawing.Size(197, 59);
+            this.Pic_Bottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Bottom.TabIndex = 5;
+            this.Pic_Bottom.TabStop = false;
+            // 
+            // Pic_Drive
+            // 
+            this.Pic_Drive.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Drive.Image = global::WindowsFormsApp1.Properties.Resources.Drive_Work;
+            this.Pic_Drive.Location = new System.Drawing.Point(3, 393);
+            this.Pic_Drive.Name = "Pic_Drive";
+            this.Pic_Drive.Size = new System.Drawing.Size(197, 63);
+            this.Pic_Drive.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Drive.TabIndex = 6;
+            this.Pic_Drive.TabStop = false;
             // 
             // panel3
             // 
@@ -810,57 +1074,57 @@
             // 
             // panel31
             // 
-            this.panel31.Controls.Add(this.pictureBox14);
+            this.panel31.Controls.Add(this.Pic_Robot6);
             this.panel31.Location = new System.Drawing.Point(527, 3);
             this.panel31.Name = "panel31";
             this.panel31.Size = new System.Drawing.Size(128, 128);
             this.panel31.TabIndex = 19;
             // 
-            // pictureBox14
+            // Pic_Robot6
             // 
-            this.pictureBox14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox14.Image = global::WindowsFormsApp1.Properties.Resources.Robot;
-            this.pictureBox14.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox14.TabIndex = 0;
-            this.pictureBox14.TabStop = false;
+            this.Pic_Robot6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot6.Image = global::WindowsFormsApp1.Properties.Resources.Robot;
+            this.Pic_Robot6.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot6.Name = "Pic_Robot6";
+            this.Pic_Robot6.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot6.TabIndex = 0;
+            this.Pic_Robot6.TabStop = false;
             // 
             // panel30
             // 
-            this.panel30.Controls.Add(this.pictureBox13);
+            this.panel30.Controls.Add(this.Pic_Robot7);
             this.panel30.Location = new System.Drawing.Point(527, 180);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(128, 128);
             this.panel30.TabIndex = 18;
             // 
-            // pictureBox13
+            // Pic_Robot7
             // 
-            this.pictureBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox13.Image = global::WindowsFormsApp1.Properties.Resources.Robot;
-            this.pictureBox13.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
+            this.Pic_Robot7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot7.Image = global::WindowsFormsApp1.Properties.Resources.Robot;
+            this.Pic_Robot7.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot7.Name = "Pic_Robot7";
+            this.Pic_Robot7.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot7.TabIndex = 0;
+            this.Pic_Robot7.TabStop = false;
             // 
             // panel29
             // 
-            this.panel29.Controls.Add(this.pictureBox12);
+            this.panel29.Controls.Add(this.Pic_Robot8);
             this.panel29.Location = new System.Drawing.Point(527, 360);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(128, 128);
             this.panel29.TabIndex = 17;
             // 
-            // pictureBox12
+            // Pic_Robot8
             // 
-            this.pictureBox12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox12.Image = global::WindowsFormsApp1.Properties.Resources.Robot;
-            this.pictureBox12.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox12.TabIndex = 0;
-            this.pictureBox12.TabStop = false;
+            this.Pic_Robot8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot8.Image = global::WindowsFormsApp1.Properties.Resources.Robot;
+            this.Pic_Robot8.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot8.Name = "Pic_Robot8";
+            this.Pic_Robot8.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot8.TabIndex = 0;
+            this.Pic_Robot8.TabStop = false;
             // 
             // panel28
             // 
@@ -1003,57 +1267,57 @@
             // 
             // panel21
             // 
-            this.panel21.Controls.Add(this.pictureBox9);
+            this.panel21.Controls.Add(this.Pic_Robot3);
             this.panel21.Location = new System.Drawing.Point(261, 3);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(128, 128);
             this.panel21.TabIndex = 9;
             // 
-            // pictureBox9
+            // Pic_Robot3
             // 
-            this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox9.Image = global::WindowsFormsApp1.Properties.Resources.FaultyRobot;
-            this.pictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
+            this.Pic_Robot3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot3.Image = global::WindowsFormsApp1.Properties.Resources.FaultyRobot;
+            this.Pic_Robot3.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot3.Name = "Pic_Robot3";
+            this.Pic_Robot3.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot3.TabIndex = 0;
+            this.Pic_Robot3.TabStop = false;
             // 
             // panel20
             // 
-            this.panel20.Controls.Add(this.pictureBox8);
+            this.panel20.Controls.Add(this.Pic_Robot4);
             this.panel20.Location = new System.Drawing.Point(264, 178);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(128, 128);
             this.panel20.TabIndex = 8;
             // 
-            // pictureBox8
+            // Pic_Robot4
             // 
-            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox8.Image = global::WindowsFormsApp1.Properties.Resources.FaultyRobot;
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
+            this.Pic_Robot4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot4.Image = global::WindowsFormsApp1.Properties.Resources.FaultyRobot;
+            this.Pic_Robot4.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot4.Name = "Pic_Robot4";
+            this.Pic_Robot4.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot4.TabIndex = 0;
+            this.Pic_Robot4.TabStop = false;
             // 
             // panel19
             // 
-            this.panel19.Controls.Add(this.pictureBox7);
+            this.panel19.Controls.Add(this.Pic_Robot5);
             this.panel19.Location = new System.Drawing.Point(264, 360);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(128, 128);
             this.panel19.TabIndex = 7;
             // 
-            // pictureBox7
+            // Pic_Robot5
             // 
-            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox7.Image = global::WindowsFormsApp1.Properties.Resources.FaultyRobot;
-            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
+            this.Pic_Robot5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot5.Image = global::WindowsFormsApp1.Properties.Resources.FaultyRobot;
+            this.Pic_Robot5.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot5.Name = "Pic_Robot5";
+            this.Pic_Robot5.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot5.TabIndex = 0;
+            this.Pic_Robot5.TabStop = false;
             // 
             // panel16
             // 
@@ -1141,7 +1405,7 @@
             // 
             this.panel9.Controls.Add(this.panel15);
             this.panel9.Controls.Add(this.panel14);
-            this.panel9.Controls.Add(this.pictureBox4);
+            this.panel9.Controls.Add(this.Pic_Robot1);
             this.panel9.Location = new System.Drawing.Point(3, 178);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(128, 128);
@@ -1169,51 +1433,51 @@
             this.panel13.Size = new System.Drawing.Size(128, 128);
             this.panel13.TabIndex = 6;
             // 
-            // pictureBox4
+            // Pic_Robot1
             // 
-            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.NoRobot;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.Pic_Robot1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot1.Image = global::WindowsFormsApp1.Properties.Resources.NoRobot;
+            this.Pic_Robot1.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot1.Name = "Pic_Robot1";
+            this.Pic_Robot1.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot1.TabIndex = 0;
+            this.Pic_Robot1.TabStop = false;
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.pictureBox3);
+            this.panel8.Controls.Add(this.Pic_Robot2);
             this.panel8.Location = new System.Drawing.Point(3, 360);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(128, 128);
             this.panel8.TabIndex = 1;
             // 
-            // pictureBox3
+            // Pic_Robot2
             // 
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.NoRobot;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.Pic_Robot2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot2.Image = global::WindowsFormsApp1.Properties.Resources.NoRobot;
+            this.Pic_Robot2.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot2.Name = "Pic_Robot2";
+            this.Pic_Robot2.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot2.TabIndex = 0;
+            this.Pic_Robot2.TabStop = false;
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.pictureBox2);
+            this.panel7.Controls.Add(this.Pic_Robot0);
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(128, 128);
             this.panel7.TabIndex = 0;
             // 
-            // pictureBox2
+            // Pic_Robot0
             // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.NoRobot;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.Pic_Robot0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pic_Robot0.Image = global::WindowsFormsApp1.Properties.Resources.NoRobot;
+            this.Pic_Robot0.Location = new System.Drawing.Point(0, 0);
+            this.Pic_Robot0.Name = "Pic_Robot0";
+            this.Pic_Robot0.Size = new System.Drawing.Size(128, 128);
+            this.Pic_Robot0.TabIndex = 0;
+            this.Pic_Robot0.TabStop = false;
             // 
             // panel5
             // 
@@ -1273,7 +1537,28 @@
             this.splitContainer7.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).EndInit();
             this.splitContainer7.ResumeLayout(false);
+            this.panel47.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel46.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Tracking)).EndInit();
+            this.panel45.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Avoid)).EndInit();
+            this.panel44.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Backout2)).EndInit();
+            this.panel43.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Backout1)).EndInit();
+            this.panel42.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Backout0)).EndInit();
+            this.panel41.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Charge)).EndInit();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Identity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Touch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Dining2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Dining1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Dining0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Bottom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Drive)).EndInit();
             this.panel3.ResumeLayout(false);
             this.splitContainer4.Panel1.ResumeLayout(false);
             this.splitContainer4.Panel1.PerformLayout();
@@ -1302,11 +1587,11 @@
             this.panel32.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.panel31.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot6)).EndInit();
             this.panel30.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot7)).EndInit();
             this.panel29.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot8)).EndInit();
             this.panel28.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Table3)).EndInit();
             this.panel27.ResumeLayout(false);
@@ -1322,11 +1607,11 @@
             this.panel18.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.panel21.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot3)).EndInit();
             this.panel20.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot4)).EndInit();
             this.panel19.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot5)).EndInit();
             this.panel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Table1)).EndInit();
             this.panel12.ResumeLayout(false);
@@ -1337,14 +1622,55 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot1)).EndInit();
             this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot2)).EndInit();
             this.panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Robot0)).EndInit();
             this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+
+        private System.Windows.Forms.PictureBox Pic_Avoid;
+
+        private System.Windows.Forms.PictureBox Pic_Backout1;
+
+        private System.Windows.Forms.PictureBox Pic_Backout0;
+
+        private System.Windows.Forms.Panel panel47;
+
+        private System.Windows.Forms.PictureBox Pic_Tracking;
+
+        private System.Windows.Forms.PictureBox Pic_Backout2;
+
+        private System.Windows.Forms.Panel panel45;
+        private System.Windows.Forms.Panel panel46;
+        private System.Windows.Forms.PictureBox Pic_Charge;
+
+        private System.Windows.Forms.Panel panel43;
+        private System.Windows.Forms.Panel panel44;
+
+        private System.Windows.Forms.Panel panel42;
+
+        private System.Windows.Forms.Panel panel41;
+
+        private System.Windows.Forms.PictureBox Pic_Drive;
+
+        private System.Windows.Forms.PictureBox Pic_Bottom;
+
+        private System.Windows.Forms.PictureBox Pic_Dining0;
+
+        private System.Windows.Forms.PictureBox Pic_Dining1;
+
+        private System.Windows.Forms.PictureBox Pic_Dining2;
+
+        private System.Windows.Forms.PictureBox Pic_Touch;
+
+        private System.Windows.Forms.PictureBox Pic_Identity;
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
 
         private System.Windows.Forms.PictureBox pictureBox29;
 
@@ -1387,12 +1713,12 @@
         private System.Windows.Forms.PictureBox pictureBox15;
 
         private System.Windows.Forms.Panel panel31;
-        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox Pic_Robot6;
 
         private System.Windows.Forms.Panel panel30;
-        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox Pic_Robot7;
 
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox Pic_Robot8;
 
         private System.Windows.Forms.Panel panel28;
         private System.Windows.Forms.Panel panel29;
@@ -1410,12 +1736,12 @@
         private System.Windows.Forms.PictureBox pictureBox10;
 
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox Pic_Robot3;
 
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox Pic_Robot4;
 
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox Pic_Robot5;
 
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel19;
@@ -1436,14 +1762,14 @@
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel11;
 
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox Pic_Robot1;
 
         private System.Windows.Forms.Panel panel9;
 
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox Pic_Robot2;
 
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox Pic_Robot0;
 
         private System.Windows.Forms.Panel panel7;
 
@@ -1462,7 +1788,6 @@
 
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label Title_Index;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label Title_Time;
         private System.Windows.Forms.Label Title_Passager;
         private System.Windows.Forms.Label Title_State;

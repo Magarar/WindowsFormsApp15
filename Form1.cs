@@ -67,56 +67,7 @@ namespace WindowsFormsApp1
                 curOrder = newOrder;
             }
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void splitContainer2_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
+        
         
         private void timer1_Elapsed(object sender, ElapsedEventArgs e)
         {
@@ -127,6 +78,6 @@ namespace WindowsFormsApp1
             }));
 
         }
-        
+
     }
 }
