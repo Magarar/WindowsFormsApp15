@@ -7,10 +7,19 @@ using Newtonsoft.Json.Linq;
 
 namespace WindowsFormsApp1.Script
 {
+    /// <summary>
+    /// 与后端进行HTTP请求服务
+    /// </summary>
     public class HttpService
     {
         private readonly HttpClient _httpClient = new HttpClient();
 
+        /// <summary>
+        /// 发送 GET 请求
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         private async Task<string> SendGetRequestAsync(string url)
         {
             try
@@ -27,7 +36,12 @@ namespace WindowsFormsApp1.Script
                 throw new Exception("发送 GET 请求时出错: " + ex.Message);
             }
         }
-        
+        /// <summary>
+        /// 获取客流量
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public async Task<string> GetCountAsync(string url)
         {
             try
@@ -47,6 +61,12 @@ namespace WindowsFormsApp1.Script
             }
         }
 
+        /// <summary>
+        /// 获取餐桌空余情况
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public async Task<bool> GetTableAsync(string url)
         {
             try
@@ -54,7 +74,7 @@ namespace WindowsFormsApp1.Script
                 string jsonResponse = await SendGetRequestAsync(url);
                 
                 JObject json = JObject.Parse(jsonResponse);
-                Console.WriteLine(json);
+                // Console.WriteLine(json);
                 
                 
                 bool exist = json["exists"].Value<bool>();
@@ -67,11 +87,18 @@ namespace WindowsFormsApp1.Script
             }
         }
 
+        /// <summary>
+        /// 获取后端最新订单
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public async Task<Order> GetOrderAsync(string url)
         {
             try
             {
                 string jsonResponse = await SendGetRequestAsync(url);
+                Console.WriteLine(jsonResponse);
                 Order order = JsonConvert.DeserializeObject<Order>(jsonResponse);
                 return order;
             }
@@ -81,6 +108,11 @@ namespace WindowsFormsApp1.Script
             }
         }
 
+        /// <summary>
+        /// 请求回传后端
+        /// </summary>
+        /// <param name="url"></param>
+        /// <param name="orderID"></param>
         public async Task UpdateOrderStatus(string url, string orderID)
         {
             try

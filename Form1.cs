@@ -29,6 +29,7 @@ namespace WindowsFormsApp1
         
         private async Task GetInfoAsync()
         {
+            //建立请求
             var httpService = new HttpService();
 
             try

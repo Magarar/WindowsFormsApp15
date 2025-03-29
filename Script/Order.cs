@@ -3,6 +3,9 @@ using Newtonsoft.Json;
 
 namespace WindowsFormsApp1.Script
 {
+    /// <summary>
+    /// 封装类
+    /// </summary>
     public class Order
     {
         [JsonProperty("_id")]
