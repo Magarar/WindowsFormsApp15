@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,13 +15,20 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        public static Form1 Instance { get; } = new Form1();
+        private static readonly Lazy<Form1> _lazyInstance = new Lazy<Form1>(() => new Form1(), true);
+        public static Form1 Instance => _lazyInstance.Value;
 
         private readonly HttpService _httpService = new HttpService();
         private const string BaseUrl = "https://order-learn-8gtowqh7fdb505b4-1332464681.ap-shanghai.app.tcloudbase.com";
 
         public Order curOrder;
         public Order newOrder;
+        private readonly object _orderLock = new object();
+        
+        public MySerialPort serialPort = new MySerialPort();
+        
+        public ConsoleData consoleData = new ConsoleData();
+        
         public Form1()
         {
             InitializeComponent();
@@ -41,7 +49,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                System.Console.WriteLine(ex.Message);
             }
         }
 
@@ -63,9 +71,12 @@ namespace WindowsFormsApp1
         private async Task UpdateOrder()
         {
             newOrder = await _httpService.GetOrderAsync($"{BaseUrl}/GetLatestOrder");
-            if (newOrder.Title != curOrder.Title)
+            lock (_orderLock)
             {
-                curOrder = newOrder;
+                if (newOrder.Title != curOrder.Title && curOrder.isOver)
+                {
+                    curOrder = newOrder;
+                }
             }
         }
         
@@ -80,5 +91,87 @@ namespace WindowsFormsApp1
 
         }
 
+        public void InitPower(int minValue, int maxValue)
+        {
+            ProgerssBar_Power.Minimum = minValue;
+            ProgerssBar_Power.Maximum = maxValue;
+        }
+
+        public void UpdatePower(int value)
+        {
+            ProgerssBar_Power.Value = value;
+            Title_Power.Text = ConstString.Power + value + "%";
+        }
+
+        public void UpdateLocation(string location)
+        {
+            Title_Local.Text = ConstString.Location + location;
+        }
+
+        public void UpdateState(string status)
+        {
+            Title_State.Text = ConstString.State + status;
+        }
+
+        public void UpdateModel(string model)
+        {
+            Title_Model.Text = ConstString.Model + model;
+        }
+
+        public void UpdateOnWorking(string doing)
+        {
+            Title_OnWorking.Text = ConstString.OnWorking + doing;
+        }
+
+        public void UpdateConsole()
+        {
+            ListViewItem item = new ListViewItem();
+            item.SubItems[0].Text = consoleData.index.ToString();
+            item.SubItems.Add(consoleData.time);
+            item.SubItems.Add(consoleData.location);
+            item.SubItems.Add(consoleData.state);
+            item.SubItems.Add(consoleData.action);
+            item.SubItems.Add(consoleData.exception);
+            item.SubItems.Add(consoleData.information);
+            Console.Items.Add(item);
+        }
+        
+        private void Button_Connect_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!serialPort?.IsOpen ?? true)
+                {
+                    if (serialPort == null)
+                    {
+                        serialPort = new MySerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
+                    }
+
+                    if (!serialPort.IsOpen)
+                    {
+                        serialPort.OpenSerialPort();
+                    }
+
+                    if (serialPort.IsOpen)
+                    {
+                        UpdateButtonText("断开串口");
+                    }
+                }
+                else
+                {
+                    serialPort.CloseSerialPort();
+                    UpdateButtonText("连接串口");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"串口操作失败: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void UpdateButtonText(string text)
+        {
+            Button_Connect.Text = text;
+        }
     }
 }

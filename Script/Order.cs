@@ -27,8 +27,8 @@ namespace WindowsFormsApp1.Script
         public int Table { get; set; }
 
         [JsonProperty("Date")]
-        [JsonConverter(typeof(DateTime))]
-        public DateTime Date { get; set; }
+        // [JsonConverter(typeof(DateTime))]
+        public string Date { get; set; }
 
         [JsonProperty("_openid")]
         public string _OpenId { get; set; }
@@ -38,8 +38,10 @@ namespace WindowsFormsApp1.Script
 
         [JsonProperty("phone")]
         public int Phone { get; set; }
-        
-        
+
+        public bool isOver = false;
+
+
 
 
     }

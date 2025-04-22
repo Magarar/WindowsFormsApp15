@@ -41,7 +41,7 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.splitContainer5 = new System.Windows.Forms.SplitContainer();
             this.Title_Power = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.ProgerssBar_Power = new System.Windows.Forms.ProgressBar();
             this.Title_Local = new System.Windows.Forms.Label();
             this.Title_dispatch = new System.Windows.Forms.Label();
             this.splitContainer7 = new System.Windows.Forms.SplitContainer();
@@ -76,7 +76,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
             this.label7 = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.Console = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
@@ -150,6 +150,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.Button_Connect = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.timer1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -400,7 +401,7 @@
             // 
             // splitContainer5.Panel2
             // 
-            this.splitContainer5.Panel2.Controls.Add(this.progressBar1);
+            this.splitContainer5.Panel2.Controls.Add(this.ProgerssBar_Power);
             this.splitContainer5.Size = new System.Drawing.Size(285, 20);
             this.splitContainer5.SplitterDistance = 93;
             this.splitContainer5.SplitterWidth = 2;
@@ -417,15 +418,15 @@
             this.Title_Power.TabIndex = 8;
             this.Title_Power.Text = "电量：78％";
             // 
-            // progressBar1
+            // ProgerssBar_Power
             // 
-            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar1.Location = new System.Drawing.Point(0, 0);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(190, 20);
-            this.progressBar1.TabIndex = 9;
-            this.progressBar1.Value = 78;
+            this.ProgerssBar_Power.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ProgerssBar_Power.Location = new System.Drawing.Point(0, 0);
+            this.ProgerssBar_Power.Margin = new System.Windows.Forms.Padding(2);
+            this.ProgerssBar_Power.Name = "ProgerssBar_Power";
+            this.ProgerssBar_Power.Size = new System.Drawing.Size(190, 20);
+            this.ProgerssBar_Power.TabIndex = 9;
+            this.ProgerssBar_Power.Value = 78;
             // 
             // Title_Local
             // 
@@ -462,6 +463,7 @@
             // 
             // splitContainer7.Panel2
             // 
+            this.splitContainer7.Panel2.Controls.Add(this.Button_Connect);
             this.splitContainer7.Panel2.Controls.Add(this.comboBox1);
             this.splitContainer7.Size = new System.Drawing.Size(358, 142);
             this.splitContainer7.SplitterDistance = 119;
@@ -792,7 +794,7 @@
             // 
             // splitContainer4.Panel2
             // 
-            this.splitContainer4.Panel2.Controls.Add(this.listView1);
+            this.splitContainer4.Panel2.Controls.Add(this.Console);
             this.splitContainer4.Size = new System.Drawing.Size(816, 313);
             this.splitContainer4.SplitterDistance = 25;
             this.splitContainer4.SplitterWidth = 2;
@@ -808,20 +810,21 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "运行日志：";
             // 
-            // listView1
+            // Console
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] { this.columnHeader1, this.columnHeader2, this.columnHeader3, this.columnHeader4, this.columnHeader5, this.columnHeader6, this.columnHeader7 });
-            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.listView1.HideSelection = false;
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] { listViewItem1, listViewItem2 });
-            this.listView1.Location = new System.Drawing.Point(0, 0);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(816, 286);
-            this.listView1.TabIndex = 12;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.Console.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] { this.columnHeader1, this.columnHeader2, this.columnHeader3, this.columnHeader4, this.columnHeader5, this.columnHeader6, this.columnHeader7 });
+            this.Console.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Console.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Console.HideSelection = false;
+            this.Console.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Console.Items.AddRange(new System.Windows.Forms.ListViewItem[] { listViewItem1, listViewItem2 });
+            this.Console.Location = new System.Drawing.Point(0, 0);
+            this.Console.Margin = new System.Windows.Forms.Padding(2);
+            this.Console.Name = "Console";
+            this.Console.Size = new System.Drawing.Size(816, 286);
+            this.Console.TabIndex = 12;
+            this.Console.UseCompatibleStateImageBehavior = false;
+            this.Console.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
@@ -1506,6 +1509,16 @@
             this.label1.Text = "机器人检测窗口";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Button_Connect
+            // 
+            this.Button_Connect.Location = new System.Drawing.Point(54, 81);
+            this.Button_Connect.Name = "Button_Connect";
+            this.Button_Connect.Size = new System.Drawing.Size(127, 26);
+            this.Button_Connect.TabIndex = 1;
+            this.Button_Connect.Text = "开始连接";
+            this.Button_Connect.UseVisualStyleBackColor = true;
+            this.Button_Connect.Click += new System.EventHandler(this.Button_Connect_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1630,6 +1643,8 @@
             this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button Button_Connect;
 
         private System.Windows.Forms.PictureBox pictureBox1;
 
@@ -1792,9 +1807,9 @@
         private System.Windows.Forms.Label Title_Passager;
         private System.Windows.Forms.Label Title_State;
         private System.Windows.Forms.Label Title_Local;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar ProgerssBar_Power;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView Console;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;

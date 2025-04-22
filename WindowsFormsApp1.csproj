@@ -63,7 +63,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\ConsoleData.cs" />
+    <Compile Include="Script\Enum.cs" />
     <Compile Include="Script\HttpService.cs" />
+    <Compile Include="Script\MySerialPort.cs" />
     <Compile Include="Script\Order.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

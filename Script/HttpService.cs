@@ -51,7 +51,7 @@ namespace WindowsFormsApp1.Script
                 JObject json = JObject.Parse(jsonResponse);
                 
                 string count = json["count"].Value<string>();
-                Console.WriteLine("Count: " + count);
+                // Console.WriteLine("Count: " + count);
 
                 return count;
             }
@@ -98,7 +98,7 @@ namespace WindowsFormsApp1.Script
             try
             {
                 string jsonResponse = await SendGetRequestAsync(url);
-                Console.WriteLine(jsonResponse);
+                // Console.WriteLine(jsonResponse);
                 Order order = JsonConvert.DeserializeObject<Order>(jsonResponse);
                 return order;
             }
@@ -125,7 +125,7 @@ namespace WindowsFormsApp1.Script
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
                 var response = await _httpClient.PostAsync(url, content);
                 var responseString = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(responseString);
+                // Console.WriteLine(responseString);
 
             }
             catch (Exception ex)
